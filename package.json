@@ -1,0 +1,55 @@
+{
+  "name": "MoodAfrika",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.3",
+    "@react-native-community/cameraroll": "^4.1.2",
+    "@react-native-community/slider": "^4.2.1",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "fbjs": "^3.0.2",
+    "moment": "^2.29.1",
+    "react": "17.0.2",
+    "react-native": "0.67.1",
+    "react-native-fast-image": "^8.5.11",
+    "react-native-fs": "^2.18.0",
+    "react-native-gesture-bottom-sheet": "^1.1.0",
+    "react-native-gesture-handler": "^2.2.0",
+    "react-native-get-music-files": "^2.1.0",
+    "react-native-image-picker": "^4.7.3",
+    "react-native-image-slider-box": "^1.1.17",
+    "react-native-reanimated": "^2.2.4",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.10.2",
+    "react-native-share": "^7.6.4",
+    "react-native-sound-player": "^0.11.3",
+    "react-native-vector-icons": "^9.0.0",
+    "react-native-video": "^5.2.0",
+    "react-native-video-player": "^0.12.0",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "rn-fetch-blob": "^0.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.16.10",
+    "@babel/runtime": "7.16.7",
+    "@react-native-community/eslint-config": "2.0.0",
+    "babel-jest": "26.6.3",
+    "eslint": "7.14.0",
+    "jest": "26.6.3",
+    "metro-react-native-babel-preset": "0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
